@@ -14,10 +14,9 @@ const STRINGS = {
     subtitle:
       "Monatliche Einblicke zu lokalen Wettbewerbern — Bewertungen, Preis-/Angebotssignale und SEO‑Lücken — plus 5 konkrete Handlungsempfehlungen.",
     cta: "Beispielreport anfordern",
-    ctaMap: "Wettbewerbs-Landkarte ansehen",
+    ctaSample: "Muster ansehen",
+    ctaSampleLink: "report/samples/sample-report-de.html",
     ctaPrefill: "Ich hätte gern einen Beispielreport für meine Praxis.",
-    sampleBtnEn: "Sample (EN)",
-    sampleBtnDe: "Sample (DE)",
     badges: ["Öffentliche Daten", "Berlin-fokussiert", "5-Punkte-Plan"],
 
     whatTitle: "Was Sie bekommen",
@@ -83,10 +82,9 @@ const STRINGS = {
     subtitle:
       "Monthly insights on nearby clinics — reviews, pricing signals, and SEO gaps — with a 5‑point action list.",
     cta: "Request a Sample Report",
-    ctaMap: "View the competitor map",
+    ctaSample: "View Sample",
+    ctaSampleLink: "report/samples/sample-report.html",
     ctaPrefill: "I’d like a sample competitor report for my clinic.",
-    sampleBtnEn: "Sample (EN)",
-    sampleBtnDe: "Sample (DE)",
     badges: ["Public data", "Berlin-focused", "5‑point action plan"],
 
     whatTitle: "What you get",
@@ -164,14 +162,16 @@ function setLanguage(lang) {
   $("subtitle").textContent = s.subtitle;
   $("ctaTop").textContent = s.cta;
   $("ctaBottom").textContent = s.cta;
-  $("ctaMap").textContent = s.ctaMap;
+
+  const btnSample = $("btnSample");
+  if(btnSample && s.ctaSample) {
+     btnSample.innerHTML = `<svg style="width:18px;height:18px;margin-right:6px;vertical-align:text-bottom" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg> ${s.ctaSample}`;
+     btnSample.href = s.ctaSampleLink;
+  }
 
   $("badge1").textContent = s.badges[0];
   $("badge2").textContent = s.badges[1];
   $("badge3").textContent = s.badges[2];
-
-  $("sampleBtnEn").textContent = s.sampleBtnEn;
-  $("sampleBtnDe").textContent = s.sampleBtnDe;
 
   $("whatTitle").textContent = s.whatTitle;
   const ul = $("whatList");

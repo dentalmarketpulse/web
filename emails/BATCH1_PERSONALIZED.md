@@ -13,6 +13,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 2. A. Nejad
 
@@ -27,6 +28,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 3. A. Parish
 
@@ -41,6 +43,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 4. ADENTICS
 
@@ -55,6 +58,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 5. Abdullah Al-Wadhaf
 
@@ -69,6 +73,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 6. Adentics Kieferorthopäde Berlin-Mitte
 
@@ -83,6 +88,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 7. Adentics Kieferorthopäden
 
@@ -97,6 +103,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 8. Alexander Krom
 
@@ -111,6 +118,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 9. Alexandra Stein
 
@@ -125,6 +133,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 10. Alpha Zahnarztpraxis Mitte
 
@@ -139,6 +148,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 11. Andre Kociok
 
@@ -153,6 +163,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 12. Andrea Thiele
 
@@ -167,6 +178,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 13. Andrea Vath
 
@@ -181,6 +193,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 14. Andrea-Maria Sistori
 
@@ -195,6 +208,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 15. Andreas Krautien
 
@@ -209,6 +223,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 16. Andreas Kretschmer
 
@@ -223,6 +238,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 17. Andreas Schubert
 
@@ -237,6 +253,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 18. Andreas Wein
 
@@ -251,6 +268,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 19. Angelika Wenzel
 
@@ -265,6 +283,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 20. Anke Krüger Zahnärztin
 
@@ -279,6 +298,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 21. Anne Bohmeyer - Praxis für Zahnheilkunde
 
@@ -293,6 +313,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 22. Anne Wenzel
 
@@ -307,6 +328,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 23. Annett & Roger Traboulsi
 
@@ -321,6 +343,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 24. Annett Heppner
 
@@ -335,6 +358,7 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
 
 ## 25. Annett Paszkier
 
@@ -349,3 +373,4 @@ Wenn ihr den Report nützlich findet: Pilotmonat 99 €, danach 149–299 €, j
 Soll ich euch den Beispielreport schicken?
 
 — Nico (Competitor Pulse Berlin)
+https://dentalmarketpulse.github.io/web/
