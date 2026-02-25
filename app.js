@@ -145,6 +145,11 @@ function $(id) {
   return document.getElementById(id);
 }
 
+function safeText(id, text) {
+  const el = $(id);
+  if (el) el.textContent = text;
+}
+
 let map;
 let cluster;
 let currentLang = "de";
@@ -157,11 +162,11 @@ function setLanguage(lang) {
   const s = STRINGS[lang] || STRINGS.en;
   document.documentElement.lang = lang;
 
-  $("brand").textContent = s.brand;
-  $("title").textContent = s.title;
-  $("subtitle").textContent = s.subtitle;
-  $("ctaTop").textContent = s.cta;
-  $("ctaBottom").textContent = s.cta;
+  safeText("brand", s.brand);
+  safeText("title", s.title);
+  safeText("subtitle", s.subtitle);
+  safeText("ctaTop", s.cta);
+  safeText("ctaBottom", s.cta);
 
   const btnSample = $("btnSample");
   if(btnSample && s.ctaSample) {
@@ -169,51 +174,56 @@ function setLanguage(lang) {
      btnSample.href = s.ctaSampleLink;
   }
 
-  $("badge1").textContent = s.badges[0];
-  $("badge2").textContent = s.badges[1];
-  $("badge3").textContent = s.badges[2];
+  safeText("badge1", s.badges[0]);
+  safeText("badge2", s.badges[1]);
+  safeText("badge3", s.badges[2]);
 
-  $("whatTitle").textContent = s.whatTitle;
+  safeText("whatTitle", s.whatTitle);
   const ul = $("whatList");
-  ul.innerHTML = "";
-  for (const item of s.what) {
-    const li = document.createElement("li");
-    li.textContent = item;
-    ul.appendChild(li);
+  if (ul) {
+    ul.innerHTML = "";
+    for (const item of s.what) {
+      const li = document.createElement("li");
+      li.textContent = item;
+      ul.appendChild(li);
+    }
   }
 
-  $("mapTitle").textContent = s.mapTitle;
-  $("mapHint").textContent = s.mapHint;
-  $("pointCountLabel").textContent = s.countLabel;
-  $("mapQuery").placeholder = s.mapSearchPlaceholder;
-  $("mapSearchBtn").textContent = s.mapSearchBtn;
-  $("mapShowAllBtn").textContent = s.mapShowAllBtn;
+  safeText("mapTitle", s.mapTitle);
+  safeText("mapHint", s.mapHint);
+  safeText("pointCountLabel", s.countLabel);
+  
+  const mapQuery = $("mapQuery");
+  if (mapQuery) mapQuery.placeholder = s.mapSearchPlaceholder;
+  
+  safeText("mapSearchBtn", s.mapSearchBtn);
+  safeText("mapShowAllBtn", s.mapShowAllBtn);
 
-  $("pricingTitle").textContent = s.pricingTitle;
-  $("pricePilotName").textContent = s.pricePilotName;
-  $("pricePilotValue").textContent = s.pricePilotValue;
-  $("pricePilotDesc").textContent = s.pricePilotDesc;
-  $("priceOngoingName").textContent = s.priceOngoingName;
-  $("priceOngoingValue").textContent = s.priceOngoingValue;
-  $("priceOngoingDesc").textContent = s.priceOngoingDesc;
-  $("pricingCta").textContent = s.pricingCta;
+  safeText("pricingTitle", s.pricingTitle);
+  safeText("pricePilotName", s.pricePilotName);
+  safeText("pricePilotValue", s.pricePilotValue);
+  safeText("pricePilotDesc", s.pricePilotDesc);
+  safeText("priceOngoingName", s.priceOngoingName);
+  safeText("priceOngoingValue", s.priceOngoingValue);
+  safeText("priceOngoingDesc", s.priceOngoingDesc);
+  safeText("pricingCta", s.pricingCta);
 
-  $("faqTitle").textContent = s.faqTitle;
+  safeText("faqTitle", s.faqTitle);
   for (let i = 0; i < 3; i++) {
-    $("faqQ" + (i + 1)).textContent = s.faq[i].q;
-    $("faqA" + (i + 1)).textContent = s.faq[i].a;
+    safeText("faqQ" + (i + 1), s.faq[i].q);
+    safeText("faqA" + (i + 1), s.faq[i].a);
   }
 
-  $("formNote").textContent = s.formNote;
-  $("formTitle").textContent = s.formTitle;
-  $("labelClinic").textContent = s.form.clinic;
-  $("labelWebsite").textContent = s.form.website;
-  $("labelArea").textContent = s.form.area;
-  $("labelEmail").textContent = s.form.email;
-  $("labelNotes").textContent = s.form.notes;
-  $("submitBtn").textContent = s.form.send;
+  safeText("formNote", s.formNote);
+  safeText("formTitle", s.formTitle);
+  safeText("labelClinic", s.form.clinic);
+  safeText("labelWebsite", s.form.website);
+  safeText("labelArea", s.form.area);
+  safeText("labelEmail", s.form.email);
+  safeText("labelNotes", s.form.notes);
+  safeText("submitBtn", s.form.send);
 
-  $("legal").textContent = s.legal;
+  safeText("legal", s.legal);
 
   // buttons
   for (const b of document.querySelectorAll(".lang button")) {
@@ -239,6 +249,8 @@ async function loadPoints() {
 }
 
 function initMap() {
+  if (!$("map")) return;
+  
   map = L.map("map", {
     scrollWheelZoom: false,
   }).setView([52.52, 13.405], 11);
@@ -323,7 +335,7 @@ function renderItems(items) {
     cluster.addLayer(m);
   }
 
-  $("pointCount").textContent = `${items.length}`;
+  safeText("pointCount", `${items.length}`);
 
   if (items.length > 0) {
     const bounds = L.latLngBounds(items.map((x) => [x.lat, x.lon]));
@@ -375,7 +387,7 @@ async function renderAll() {
   clearFocus();
   renderItems(allItems);
   const s = STRINGS[currentLang] || STRINGS.en;
-  $("mapStatus").textContent = s.mapStatusAll(allItems.length);
+  safeText("mapStatus", s.mapStatusAll(allItems.length));
 }
 
 async function renderNearestTo(query) {
@@ -383,7 +395,7 @@ async function renderNearestTo(query) {
 
   const geo = await geocodeBerlin(query);
   if (!geo) {
-    $("mapStatus").textContent = s.mapStatusError;
+    safeText("mapStatus", s.mapStatusError);
     return;
   }
 
@@ -413,7 +425,7 @@ async function renderNearestTo(query) {
   }).addTo(map);
 
   renderItems(items);
-  $("mapStatus").textContent = s.mapStatusNearest(items.length, query);
+  safeText("mapStatus", s.mapStatusNearest(items.length, query));
 }
 
 async function renderInitial() {
@@ -462,7 +474,7 @@ function wireMapSearch() {
     e.preventDefault();
     const q = (input.value || "").trim();
     if (!q) return;
-    $("mapStatus").textContent = "…";
+    safeText("mapStatus", "…");
     await renderNearestTo(q);
   });
 
@@ -550,8 +562,8 @@ function wireForm() {
 function showConfirmation(message) {
   const modal = $("confirmModal");
   if (!modal) return;
-  $("modalTitle").textContent = message;
-  $("modalBody").textContent = "Wir melden uns in Kürze per E‑Mail mit einem Beispielreport.";
+  safeText("modalTitle", message);
+  safeText("modalBody", "Wir melden uns in Kürze per E‑Mail mit einem Beispielreport.");
   modal.setAttribute("aria-hidden", "false");
 
   const close = $("modalClose");
